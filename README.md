@@ -15,7 +15,8 @@ Bu kod, Cipher.fan'da otomatik olarak post göndermek için tasarlanmış bir Py
 
 ## Örnek
 
-```python
+```
+python
 txt_file_path = "cipher.txt"
 
 ...
