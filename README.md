@@ -13,15 +13,8 @@ Bu kod, Cipher.fan'da otomatik olarak post göndermek için tasarlanmış bir Py
 1. Kodu çalıştırın.
 2. Kod, metin dosyanızdaki her satır için bir post gönderecektir.
 
-## Örnek
 
-```
-python
-txt_file_path = "cipher.txt"
-
-...
-
-
+## Çalıştırma
 Bu kod, `cipher.txt` adlı bir metin dosyasındaki her satırı Cipher.fan'da bir post olarak gönderecektir. İlk `pyautogui.click(x=..., y=...)` değişkeni, Cipher.fan'daki cipher butonunun konumunu temsil eder. İkinci `pyautogui.click(x=..., y=...)` değişkeni, Cipher.fan'daki post butonunun konumunu temsil eder.
 
 Bu kodu kendi ihtiyaçlarınıza göre özelleştirebilirsiniz. Örneğin, farklı bir metin dosyası kullanmak veya farklı konumları kullanmak isteyebilirsiniz.
